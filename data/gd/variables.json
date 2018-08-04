@@ -1,5 +1,26 @@
+// Variables include:
+// NTYPE_NPC_EVENT
+// NTYPE_MAKER_EVENT
+// ----
+// CSharedCreatureData -> Done
+// CSharedItemData -> Done
+// CSharedPledgeData -> Done
+// CSharedPartyData -> Done
+// NpcMaker -> Done
+// CNPC -> Done
+// HateInfo -> Done
+// GlobalObject -> Done
+// SpawnDefine -> Done
+// CodeInfo -> Done
+// CodeInfoList -> Done
+// DBNpcInfo -> Done
+// AtomicValue -> Done
+// RoomInfo -> Done
+// RoomInfoList -> Done
+// Position -> Done
+// PositionList -> Done
 {
-    "0": {
+    "0": { // NTYPE_NPC_EVENT
         "_": {
             "8": {
                 "name": "creature",
@@ -387,11 +408,11 @@
             },
             "632": {
                 "name": "maker0",
-                "type": "NPCMakerEx"
+                "type": "NpcMaker"
             },
             "640": {
                 "name": "maker1",
-                "type": "NPCMakerEx"
+                "type": "NpcMaker"
             },
             "648": {
                 "name": "room0",
@@ -489,11 +510,11 @@
             },
             "68": {
                 "name": "is_pc",
-                "type": "int"
+                "type": "BOOL" // int
             },
             "72": {
                 "name": "alive",
-                "type": "int"
+                "type": "BOOL" // int
             },
             "76": {
                 "name": "age",
@@ -697,9 +718,8 @@
             },
             "11808": {
                 "name": "boss_id",
-                "type": "GM_ID"
+                "type": "int"
             },
-            // duplicates
             "11812": {
                 "name": "class_id",
                 "type": "NPC"
@@ -947,7 +967,7 @@
                 "type": "int"
             }
         },
-		"NPCMakerEx": {
+		"NpcMaker": {
             "1188": {
                 "name": "def_count",
                 "type": "int"
@@ -1474,7 +1494,7 @@
             }
         }
     },
-    "1": {
+    "1": { // NTYPE_MAKER_EVENT
         "_": {
             "40": {
                 "name": "talker",
@@ -1858,11 +1878,11 @@
             },
             "632": {
                 "name": "maker0",
-                "type": "NPCMakerEx"
+                "type": "NpcMaker"
             },
             "640": {
                 "name": "maker1",
-                "type": "NPCMakerEx"
+                "type": "NpcMaker"
             },
             "648": {
                 "name": "room0",
@@ -1902,7 +1922,7 @@
             },
             "736": {
                 "name": "myself",
-                "type": "NPCMakerEx"
+                "type": "NpcMaker"
             },
             "744": {
                 "name": "def0",
@@ -1941,7 +1961,7 @@
                 "type": "int"
             }
         },
-        "NPCMakerEx": {
+        "NpcMaker": {
             "1188": {
                 "name": "def_count",
                 "type": "int"
@@ -2098,11 +2118,11 @@
             },
             "68": {
                 "name": "is_pc",
-                "type": "int"
+                "type": "BOOL" // int
             },
             "72": {
                 "name": "alive",
-                "type": "int"
+                "type": "BOOL" // int
             },
             "76": {
                 "name": "age",
@@ -2306,7 +2326,7 @@
             },
             "11808": {
                 "name": "boss_id",
-                "type": "GM_ID"
+                "type": "int"
             },
             "11812": {
                 "name": "class_id",

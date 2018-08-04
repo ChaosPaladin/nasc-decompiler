@@ -1,5 +1,5 @@
 {
-    "0": { 
+    "0": { // NTYPE_NPC_EVENT
         "0": "NO_DESIRE",
         "1": "ATTACKED",
         "2": "SPELLED",
@@ -202,7 +202,7 @@
         "199": "CHANGE_EVENT_NPC_STAGE",
         "200": "START_DYNAMIC_QUEST_RESULT"
     },
-    "1": {
+    "1": { // NTYPE_MAKER_EVENT
         "0": "ON_START",
         "1": "ON_NPC_DELETED",
         "2": "ON_ALL_NPC_DELETED",
